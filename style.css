@@ -92,3 +92,38 @@ div[class^="ex-2"]{
 div[class^="ex-2"]:active {
     width: 100%;
 }
+
+/* ex3 */
+
+div[class^="ex-3"]{
+    transition: border-radius 3s;
+}
+
+div[class^="ex-3"]:hover {
+    border-radius: 50%;
+}
+
+/* ex4 */
+
+div[class^="ex-4"]{
+    transition: opacity 3s;
+}
+
+div[class^="ex-4"]:hover {
+    opacity: 0;
+}
+
+/* ex5 */
+
+div[class^="ex-5"]{
+    transition: transform 3s;
+}
+
+div[class^="ex-5"]:hover {
+   transform: scale(1.5);
+}
+
+div[class^="ex-5"]:active {
+    transform: scale(.5);
+}
+
