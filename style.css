@@ -67,3 +67,28 @@
     width: 60px;
     height: 20px;
 }
+
+
+/****************
+            EXERCISES
+                 ***************/
+
+/* ex1 */
+
+div[class^="ex-1"]{
+    transition: background-color 3s;
+}
+
+div[class^="ex-1"]:hover {
+    background-color: red;
+}
+
+/* ex2 */
+
+div[class^="ex-2"]{
+    transition: width 3s;
+}
+
+div[class^="ex-2"]:active {
+    width: 100%;
+}
