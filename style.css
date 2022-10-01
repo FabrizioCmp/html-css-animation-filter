@@ -127,3 +127,28 @@ div[class^="ex-5"]:active {
     transform: scale(.5);
 }
 
+/* ex6 */
+
+img[class^="ex-6"]:hover {
+   filter: grayscale(1);
+}
+
+/* ex7 */
+
+img[class^="ex-7"]{
+   transition: 3s;
+}
+img[class^="ex-7"]:hover {
+   filter: grayscale(1) sepia(7);
+}
+
+/* ex8 */
+
+img[class^="ex-8"]{
+   transition: 3s;
+}
+img[class^="ex-8"]:hover {
+   filter: grayscale(1) sepia(7);
+   border-radius: 3rem;
+}
+
