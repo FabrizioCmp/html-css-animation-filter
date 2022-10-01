@@ -152,3 +152,46 @@ img[class^="ex-8"]:hover {
    border-radius: 3rem;
 }
 
+/* ex9 */
+
+img[class^="ex-9"]{
+   transition: 3s;
+}
+img[class^="ex-9"]:hover {
+   filter: grayscale(1) sepia(7);
+   border-radius: 3rem;
+   transform: scale(1.5);
+}
+
+/* ex10 */
+
+i[class^="ex-10"]{
+   animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* ex11 */
+
+i[class^="ex-11"]:hover{
+   animation: rotate270 3s linear infinite;
+}
+
+@keyframes rotate270{
+    0%,100%{
+        transform: rotate(0);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+
+}
+
+
